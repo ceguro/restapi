@@ -4,10 +4,10 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
+      host: 0.0.0.0
       port: 27017
-      database: user
-      username: root
+      database: admin
+      username: mongoadmin
       password: example
       repositories:
         type: auto
